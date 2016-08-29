@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.TextField?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="324.0" prefWidth="233.0" 
+xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <TextField fx:id="txtA" layoutX="33.0" layoutY="42.0" prefHeight="25.0" prefWidth="39.0" />
+      <TextField fx:id="txtB" layoutX="97.0" layoutY="42.0" prefHeight="25.0" prefWidth="39.0" />
+      <TextField fx:id="txtC" layoutX="161.0" layoutY="42.0" prefHeight="25.0" prefWidth="39.0" />
+      <Label layoutX="81.0" layoutY="46.0" text="+" />
+      <Label layoutX="146.0" layoutY="46.0" text="+" />
+      <Button fx:id="btnCalcular" layoutX="88.0" layoutY="86.0" mnemonicParsing="false" onAction="#calcular" text="Calcular" />
+      <Label layoutX="38.0" layoutY="14.0" text="Informe os valores desejados:" />
+      <Label layoutX="24.0" layoutY="145.0" text="Delta vale:" />
+      <Label fx:id="lblDelta" layoutX="83.0" layoutY="145.0" />
+      <Label layoutX="24.0" layoutY="186.0" text="X1:" />
+      <Label layoutX="24.0" layoutY="220.0" text="X2:" />
+      <Label fx:id="lblX1" layoutX="84.0" layoutY="186.0" />
+      <Label fx:id="lblX2" layoutX="83.0" layoutY="220.0" />
+   </children>
+</Pane>
