@@ -3,6 +3,9 @@
 
 #include "Common.h"
 
+
+int seconds = 0;
+
 // Namespace
 using namespace AGK;
 
@@ -32,8 +35,9 @@ void CMemoryGameApp::Begin(void)
 }
 
 void CMemoryGameApp::Loop(void) {
-	agk::Print(agk::ScreenFPS());
-
+	if (seconds < 120) {
+		agk::Print(agk::ScreenFPS());
+	}
 	// update the screen
 	agk::Sync();
 }
