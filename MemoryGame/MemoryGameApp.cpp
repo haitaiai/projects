@@ -31,8 +31,7 @@ void CMemoryGameApp::Begin(void)
 	agk::SetScissor(0, 0, 0, 0);
 }
 
-void CMemoryGameApp::Loop(void)
-{
+void CMemoryGameApp::Loop(void) {
 	agk::Print(agk::ScreenFPS());
 
 	// update the screen
