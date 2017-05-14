@@ -35,6 +35,7 @@ void CMemoryGameApp::Begin(void)
 }
 
 void CMemoryGameApp::Loop(void) {
+	// Wait 2 seconds
 	if (seconds < 120) {
 		agk::Print(agk::ScreenFPS());
 	}
