@@ -34,7 +34,7 @@ void CMemoryGameApp::Begin(void)
 void CMemoryGameApp::Loop(void) {
 	agk::Print(agk::ScreenFPS());
 
-	// update the screen
+	// update the screen 
 	agk::Sync();
 }
 
